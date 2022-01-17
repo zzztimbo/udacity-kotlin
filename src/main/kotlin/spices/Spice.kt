@@ -1,0 +1,5 @@
+package spices
+
+class Spice {
+
+}
