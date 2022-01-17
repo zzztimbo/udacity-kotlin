@@ -23,3 +23,18 @@ class TowerTank(): Aquarium() {
         get() =  (width * height * length / 1000 * PI).toInt()
         set(value) { height = (value * 1000) / (width * length) }
 }
+
+fun makeFish() {
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("shark: ${shark.color}")
+    println("pleco: ${pleco.color}")
+
+    feedFish(shark)
+    feedFish(pleco)
+}
+
+fun main() {
+    makeFish()
+}
