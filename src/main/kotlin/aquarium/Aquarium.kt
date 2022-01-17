@@ -9,5 +9,5 @@ class Aquarium {
       get() =  width * height * length / 1000
       set(value) { height = (value * 1000) / (width * length) }
 
-
+    var water = volume * 0.9
 }
